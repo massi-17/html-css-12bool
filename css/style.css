@@ -34,8 +34,29 @@ h1 {
 }
 
 .justify-start {
-    justify-content: flex-start !important;
-    
-    
+    justify-content: flex-start;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.double-height  {
+    padding: 40px 0;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+  
+  .bottom {
+    align-items: flex-end;
+}

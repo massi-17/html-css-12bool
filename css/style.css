@@ -11,6 +11,8 @@
     border: 1px solid white;
 }
 
+
+
 .container {
     margin-bottom: 10px;
 }
@@ -30,3 +32,10 @@ h1 {
     font-size: 18px;
     font-weight: bold;
 }
+
+.justify-start {
+    justify-content: flex-start !important;
+    
+    
+}
+

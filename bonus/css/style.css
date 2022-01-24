@@ -2,6 +2,7 @@
     font-size: 12px;
     color: black;
     text-align: center;
+    background-color: tomato;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -15,6 +16,7 @@
 
 .container {
  
+    padding: 40px;
     
 }
 

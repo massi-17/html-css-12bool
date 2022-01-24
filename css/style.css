@@ -6,7 +6,7 @@
 }
 
 [class*="col-"] {
-    background-color: blue;
+    background-color: #006CFA;
     padding: 10px;
     border: 1px solid white;
 }
@@ -18,8 +18,8 @@
 }
 
 .green {
-    background-color: green;
-    border: 1px solid blue;
+    background-color: #00E165;
+    border: 1px solid #006CFA;
 }
 
 .row.blank [class*="col-"] {
@@ -30,6 +30,13 @@ h1 {
     color: black;
     text-align: left;
     font-size: 18px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    color: black;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -59,4 +66,12 @@ h1 {
   
   .bottom {
     align-items: flex-end;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
